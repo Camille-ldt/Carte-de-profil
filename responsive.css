@@ -1,0 +1,53 @@
+@media (max-width: 375px) {
+    .card {
+        width: 80%;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .city {
+        font-size: 0.7rem;
+    }
+
+    .content {
+        font-size: 0.8rem;
+    }
+
+    .link {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 375px)  {
+    .card {
+        width: calc(60% / 3 - 10px); 
+    }
+
+    img {
+        width: 25%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin: 0 0 10px 0;
+    }
+
+    .city {
+        font-size: 0.9rem;
+    }
+
+    .content {
+        font-size: 0.9rem;
+    }
+
+    .link {
+        padding: 10px;
+    }
+}
